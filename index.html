@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceFlow AI | Intelligent Voice Agent Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(90deg, #4338ca, #3b82f6);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold text-blue-600">VoiceFlow<span class="text-indigo-800">AI</span></a>
+                </div>
+                <div class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#features" class="text-gray-800 hover:text-blue-600 transition">Features</a></li>
+                        <li><a href="#services" class="text-gray-800 hover:text-blue-600 transition">Services</a></li>
+                        <li><a href="#intelligence" class="text-gray-800 hover:text-blue-600 transition">Intelligence</a></li>
+                        <li><a href="#automation" class="text-gray-800 hover:text-blue-600 transition">Automation</a></li>
+                        <li><a href="#pricing" class="text-gray-800 hover:text-blue-600 transition">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-24 pb-12 gradient-bg">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Intelligent Voice Agent Platform</h1>
+            <p class="text-xl text-white mb-8 max-w-2xl mx-auto">Transform your contact center with AI-powered voice agents that reduce Average Handle Time and increase customer satisfaction.</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition">Free Setup & Assistance</a>
+                <a href="#demo" class="border-2 border-white text-white px-6 py-3 rounded-md font-semibold hover:bg-white hover:text-blue-600 transition">Request Demo</a>
+            </div>
+            <div class="mt-12">
+                <img src="/api/placeholder/800/400" alt="Voice Agent Dashboard" class="rounded-lg shadow-xl mx-auto">
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition duration-300">
+                    <div class="h-16 w-16 rounded-full gradient-bg flex items-center justify-center mb-4">
+                        <i class="fas fa-clock text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">AHT Optimization</h3>
+                    <p class="text-gray-600">Reduce Average Handle Time by up to 40% with intelligent conversation flows and automated responses.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition duration-300">
+                    <div class="h-16 w-16 rounded-full gradient-bg flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Customer Segmentation</h3>
+                    <p class="text-gray-600">Intelligently segment customers based on behavior, needs, and history for personalized experiences.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition duration-300">
+                    <div class="h-16 w-16 rounded-full gradient-bg flex items-center justify-center mb-4">
+                        <i class="fas fa-smile text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Better CSAT</h3>
+                    <p class="text-gray-600">Improve customer satisfaction scores with efficient, personalized, and seamless voice interactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Comprehensive Voice Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-headset"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Inbound Contact Center</h3>
+                    <p class="text-gray-600">Handle inbound calls with AI-powered agents that provide quick and efficient customer service.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-phone-volume"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Sales Dialer</h3>
+                    <p class="text-gray-600">Automate outbound sales calls with intelligent scripts and real-time analytics.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-comments"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Outbound Contact Center</h3>
+                    <p class="text-gray-600">Streamline outbound campaign management with targeted messaging and follow-ups.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-sitemap"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">IVR (Calling Menu)</h3>
+                    <p class="text-gray-600">Create intuitive voice menus that route calls efficiently and reduce wait times.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-exchange-alt"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Call Forwarding</h3>
+                    <p class="text-gray-600">Intelligent call routing to the right department or agent based on customer needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-random"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Automated Call Distribution</h3>
+                    <p class="text-gray-600">Distribute calls based on agent skills, availability, and customer priority.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-microphone"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Call Recordings</h3>
+                    <p class="text-gray-600">Secure storage and easy access to call recordings for training and compliance.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Advanced Analytics</h3>
+                    <p class="text-gray-600">Real-time agent performance metrics and comprehensive call analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conversational Intelligence Section -->
+    <section id="intelligence" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Conversational Intelligence</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                    <h3 class="text-2xl font-semibold mb-4">Drive Agent Productivity & Customer Delight</h3>
+                    <p class="text-gray-600 mb-6">Our AI-powered conversational intelligence platform transforms voice interactions into actionable insights that improve agent performance and customer satisfaction.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full gradient-bg flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Real-time coaching and guidance for agents</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full gradient-bg flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Automated call summaries and action items</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full gradient-bg flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Identify successful conversation patterns</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full gradient-bg flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span class="text-gray-700">Track compliance with required scripts and protocols</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h4 class="text-xl font-semibold mb-4">Intelligent Features</h4>
+                        
+                        <div class="mb-6">
+                            <h5 class="text-lg font-medium text-blue-600 mb-2">Sentiment Analysis</h5>
+                            <p class="text-gray-600">Track and detect customer sentiments in real-time over calls, allowing agents to adjust their approach accordingly.</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h5 class="text-lg font-medium text-blue-600 mb-2">Fallback Rules</h5>
+                            <p class="text-gray-600">Automatically trigger Email, SMS, or WhatsApp for follow-ups and reminders based on call outcomes.</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h5 class="text-lg font-medium text-blue-600 mb-2">Automatic Call Scoring</h5>
+                            <p class="text-gray-600">Get real-time scoring for all calls based on predefined quality metrics and KPIs.</p>
+                        </div>
+                        
+                        <div>
+                            <h5 class="text-lg font-medium text-blue-600 mb-2">Performance Monitoring</h5>
+                            <p class="text-gray-600">Monitor key metrics like talk-to-listen ratio, pace, tone, and customer engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Automation Section -->
+    <section id="automation" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Automation & Workflows</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-16 w-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-database text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">CRM Integration</h3>
+                    <p class="text-gray-600 mb-4">Seamlessly integrate with popular CRM platforms like Salesforce, HubSpot, Zoho, and more.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Automatic contact creation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Call activity logging</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Ticket/case creation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-16 w-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-comment-dots text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">SMS Workflows</h3>
+                    <p class="text-gray-600 mb-4">Create automated SMS sequences triggered by call events or customer actions.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Appointment reminders</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Follow-up sequences</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Satisfaction surveys</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-16 w-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-envelope text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Email Workflows</h3>
+                    <p class="text-gray-600 mb-4">Automate email communications based on call outcomes and customer interactions.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Call summaries</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Document delivery</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Nurture campaigns</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Simple, Transparent Pricing</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Choose the plan that fits your business needs with no hidden fees. All plans include free setup and assistance.</p>
+            
+            <div class="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md p-8 md:w-1/3">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Standard</h3>
+                    <p class="text-gray-600 mb-4">Perfect for small businesses and startups</p>
+                    <div class="text-3xl font-bold text-gray-900 mb-6">$29<span class="text-lg text-gray-600 font-normal">/agent/month</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Basic voice agent features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Call recording storage (30 days)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Email & SMS workflows</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Standard analytics</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">Get Started</a>
+                </div>
+                
+                <div class="bg-blue-50 border border-blue-200 rounded-lg shadow-md p-8 md:w-1/3 relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-3 py-1 rounded-bl-lg rounded-tr-lg text-sm font-semibold">POPULAR</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Professional</h3>
+                    <p class="text-gray-600 mb-4">Ideal for growing teams and businesses</p>
+                    <div class="text-3xl font-bold text-gray-900 mb-6">$59<span class="text-lg text-gray-600 font-normal">/agent/month</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>All Standard features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Advanced voice intelligence</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Sentiment analysis</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Custom fallback rules</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>CRM integrations</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">Get Started</a>
+                </div>
+                
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md p-8 md:w-1/3">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Enterprise</h3>
+                    <p class="text-gray-600 mb-4">For large organizations with complex needs</p>
+                    <div class="text-3xl font-bold text-gray-900 mb-6">Custom<span class="text-lg text-gray-600 font-normal"> pricing</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>All Professional features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Dedicated account manager</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Custom AI model training</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Advanced security features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>API access</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-gray-800 text-white py-2 px-4 rounded-md hover:bg-gray-900 transition">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 gradient-bg">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Ready to Transform Your Voice Communications?</h2>
+            <p class="text-xl text-white mb-8 max-w-2xl mx-auto">Get started today with free setup and assistance. Our team will help you implement the perfect voice agent solution for your business.</p>
+            <div class="flex justify-center">
+                <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold text-lg hover:bg-gray-100 transition">Schedule a Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Get in Touch</h2>
+            <div class="max-w-2xl mx-auto bg-gray-50 rounded-lg p-8 shadow-sm">
+                <form>
+                    <div class="mb-6">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Work Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="company" class="block text-gray-700 font-medium mb-2">Company Name</label>
+                        <input type="text" id="company" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                        <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">How can we help?</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700 transition">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">VoiceFlowAI</h3>
+                    <p class="text-gray-400">Transforming voice communications with AI-powered agent technology.</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Solutions</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Voice Agents</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Sales Dialer</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Customer Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Documentation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">API References</a></li>
